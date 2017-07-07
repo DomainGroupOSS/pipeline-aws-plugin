@@ -99,8 +99,8 @@ public class EventPrinter {
 			} catch (AmazonCloudFormationException e) {
 				// suppress and continue
 			}
-			try {
-				Thread.sleep(1000);
+			try { 				
+				Thread.sleep(20000);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
